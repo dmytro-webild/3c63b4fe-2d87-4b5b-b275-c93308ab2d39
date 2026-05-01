@@ -150,7 +150,7 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/services" }, { label: "Contact", href: "/contact" }] },
-        { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
+        { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy-policy" }, { label: "Terms of Service", href: "#" }] },
         { title: "Social", items: [{ label: "Facebook", href: "https://facebook.com" }, { label: "Instagram", href: "https://instagram.com" }] },
       ]}
       logoText="Puptown Parlor"

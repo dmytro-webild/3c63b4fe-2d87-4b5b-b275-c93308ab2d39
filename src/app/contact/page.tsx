@@ -71,7 +71,7 @@ export default function ContactPage() {
           logoText="Puptown Parlor"
           columns={[
             { title: "Company", items: [{ label: "Home", href: "/" }, { label: "About", href: "/about" }, { label: "Contact", href: "/contact" }] },
-            { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
+            { title: "Legal", items: [{ label: "Privacy Policy", href: "/privacy-policy" }, { label: "Terms of Service", href: "#" }] },
           ]}
         />
       </ReactLenis>
