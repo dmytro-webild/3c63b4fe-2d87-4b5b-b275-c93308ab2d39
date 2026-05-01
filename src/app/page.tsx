@@ -60,7 +60,7 @@ export default function LandingPage() {
       background={{
         variant: "plain",
       }}
-      title="Pamper Your Best Friend at Puptown Parlor"
+      title="Pamper Your Best Friend at Puptown Parlor!"
       description="Princeton’s Premier Gentle Grooming Spa. Where Tails Wag & Paws Glow – Experience stress-free, luxury pampering tailored to your pup's unique needs."
       testimonials={[
         {
