@@ -36,9 +36,9 @@ export default function PrivacyPolicyPage() {
             layout="page"
             title="Privacy Policy"
             sections={[
-              { heading: "Introduction", content: { text: "At Puptown Parlor, we respect your privacy and are committed to protecting your personal data." } },
-              { heading: "Information We Collect", content: { items: ["Contact information", "Pet details", "Appointment scheduling data"] } },
-              { heading: "How We Use Your Information", content: { items: ["To manage appointments", "To provide personalized care"] } }
+              { heading: "Introduction", content: { type: "paragraph", text: "At Puptown Parlor, we respect your privacy and are committed to protecting your personal data." } },
+              { heading: "Information We Collect", content: { type: "list", items: ["Contact information", "Pet details", "Appointment scheduling data"] } },
+              { heading: "How We Use Your Information", content: { type: "list", items: ["To manage appointments", "To provide personalized care"] } }
             ]}
           />
         </div>
