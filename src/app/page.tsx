@@ -34,7 +34,7 @@ export default function LandingPage() {
         { name: "Services", id: "services" },
         { name: "About", id: "/about" },
         { name: "Reviews", id: "testimonials" },
-        { name: "Contact", id: "contact" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="Puptown Parlor"
     />
@@ -52,7 +52,7 @@ export default function LandingPage() {
         { name: "James T.", handle: "@jamest", testimonial: "My doodle has never looked this good. Absolutely stunning work.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg?_wi=1" },
         { name: "Emily R.", handle: "@emily_r", testimonial: "Kind, clean, and professional. We are customers for life.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg?_wi=1" },
       ]}
-      buttons={[{ text: "Book Now", href: "#contact" }]}
+      buttons={[{ text: "Book Now", href: "/contact" }]}
       imageSrc="http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatarText="Trusted by 500+ Princeton Pet Parents"
@@ -94,9 +94,9 @@ export default function LandingPage() {
       textboxLayout="split"
       useInvertedBackground={false}
       plans={[
-        { id: "basic", badge: "Essential", price: "$35", subtitle: "Quick Refresh", features: ["Bath", "Nail Trim", "Ear Cleaning"], buttons: [{ text: "Book Basic", href: "#contact" }] },
-        { id: "standard", badge: "Most Popular", price: "$65", subtitle: "Full Spa Experience", features: ["Full Groom", "Blueberry Facial", "Teeth Brushing"], buttons: [{ text: "Book Standard", href: "#contact" }] },
-        { id: "deluxe", badge: "Luxury", price: "$85+", subtitle: "Total Pampering", features: ["Full Groom", "De-shed Rescue", "Pawdicure", "Bow Tie"], buttons: [{ text: "Book Deluxe", href: "#contact" }] },
+        { id: "basic", badge: "Essential", price: "$35", subtitle: "Quick Refresh", features: ["Bath", "Nail Trim", "Ear Cleaning"], buttons: [{ text: "Book Basic", href: "/contact" }] },
+        { id: "standard", badge: "Most Popular", price: "$65", subtitle: "Full Spa Experience", features: ["Full Groom", "Blueberry Facial", "Teeth Brushing"], buttons: [{ text: "Book Standard", href: "/contact" }] },
+        { id: "deluxe", badge: "Luxury", price: "$85+", subtitle: "Total Pampering", features: ["Full Groom", "De-shed Rescue", "Pawdicure", "Bow Tie"], buttons: [{ text: "Book Deluxe", href: "/contact" }] },
       ]}
       title="Grooming Packages"
       description="Transparent pricing for exceptional care. Custom quotes available for matted or highly anxious pups."
@@ -141,14 +141,14 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{ variant: "cell-wave" }}
       text="Ready for your pup’s spa day? Reach out to schedule an appointment today. We are located at 691 E Princeton Dr, Princeton, TX 75407."
-      buttons={[{ text: "Call Now", href: "tel:+19725550100" }]}
+      buttons={[{ text: "Visit Contact Page", href: "/contact" }]}
     />
   </div>
 
   <div id="footer" data-section="footer">
       <FooterBase
       columns={[
-        { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/services" }] },
+        { title: "Company", items: [{ label: "About Us", href: "/about" }, { label: "Services", href: "/services" }, { label: "Contact", href: "/contact" }] },
         { title: "Legal", items: [{ label: "Privacy Policy", href: "#" }, { label: "Terms of Service", href: "#" }] },
         { title: "Social", items: [{ label: "Facebook", href: "https://facebook.com" }, { label: "Instagram", href: "https://instagram.com" }] },
       ]}
