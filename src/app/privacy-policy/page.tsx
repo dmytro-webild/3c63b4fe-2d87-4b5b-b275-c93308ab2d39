@@ -39,13 +39,13 @@ export default function PrivacyPolicyPage() {
             subtitle="Last updated: May 20, 2024"
             sections={[
               {
-                heading: "1. Information We Collect",                content: { text: "At Puptown Parlor, we collect personal information you provide when booking appointments, such as your name, contact details, and pet information.", type: "paragraph" }
+                heading: "1. Information We Collect",                content: { type: "paragraph", text: "At Puptown Parlor, we collect personal information you provide when booking appointments, such as your name, contact details, and pet information." }
               },
               {
-                heading: "2. How We Use Your Information",                content: { items: ["To process your grooming appointments.", "To communicate regarding your service updates.", "To improve our service quality."], type: "list" }
+                heading: "2. How We Use Your Information",                content: { type: "list", items: ["To process your grooming appointments.", "To communicate regarding your service updates.", "To improve our service quality."] }
               },
               {
-                heading: "3. Data Security",                content: { text: "We implement robust security measures to protect your personal information from unauthorized access or disclosure.", type: "paragraph" }
+                heading: "3. Data Security",                content: { type: "paragraph", text: "We implement robust security measures to protect your personal information from unauthorized access or disclosure." }
               }
             ]}
           />
