@@ -52,7 +52,7 @@ export default function LandingPage() {
         { name: "James T.", handle: "@jamest", testimonial: "My doodle has never looked this good. Absolutely stunning work.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg?_wi=1" },
         { name: "Emily R.", handle: "@emily_r", testimonial: "Kind, clean, and professional. We are customers for life.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg?_wi=1" },
       ]}
-      buttons={[{ text: "Book Now", href: "/contact" }]}
+      buttons={[{ text: "Book Your Pup's Spa Day", href: "/contact" }]}
       imageSrc="http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatarText="Trusted by 500+ Princeton Pet Parents"
