@@ -11,6 +11,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import PricingCardEight from '@/components/sections/pricing/PricingCardEight';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
 import TextAbout from '@/components/sections/about/TextAbout';
+import { Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -95,7 +96,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       plans={[
         { id: "basic", badge: "Essential", price: "$35", subtitle: "Quick Refresh", features: ["Bath", "Nail Trim", "Ear Cleaning"], buttons: [{ text: "Book Basic", href: "/contact" }] },
-        { id: "standard", badge: "Most Popular", price: "$65", subtitle: "Full Spa Experience", features: ["Full Groom", "Blueberry Facial", "Teeth Brushing"], buttons: [{ text: "Book Standard", href: "/contact" }] },
+        { id: "standard", badge: "Most Popular", badgeIcon: Star, price: "$65", subtitle: "Full Spa Experience", features: ["Full Groom", "Blueberry Facial", "Teeth Brushing"], buttons: [{ text: "Book Standard", href: "/contact" }] },
         { id: "deluxe", badge: "Luxury", price: "$85+", subtitle: "Total Pampering", features: ["Full Groom", "De-shed Rescue", "Pawdicure", "Bow Tie"], buttons: [{ text: "Book Deluxe", href: "/contact" }] },
       ]}
       title="Grooming Packages"
