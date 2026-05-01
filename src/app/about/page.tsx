@@ -57,7 +57,7 @@ export default function AboutPage() {
         <div id="contact" data-section="contact">
           <ContactText
             text="Questions? Feel free to contact us or book your appointment today."
-            buttons={[{ text: "Book Your Appointment Today", href: "tel:+19725550100" }]}
+            buttons={[{ text: "Book Your Appointment Today", href: "/contact" }]}
             background={{ variant: "cell-wave" }}
             useInvertedBackground={true}
           />
