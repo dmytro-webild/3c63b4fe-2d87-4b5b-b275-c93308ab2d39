@@ -68,7 +68,7 @@ export default function LandingPage() {
           handle: "@sarah_j",
           testimonial: "The best grooming experience ever. My anxious pup was so calm!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=1",
           imageAlt: "luxury pet spa grooming happy dog",
         },
         {
@@ -84,7 +84,7 @@ export default function LandingPage() {
           handle: "@lp_doglove",
           testimonial: "Finally, a place that understands senior dogs. So gentle!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-with-greyhound-dog-home-couch_23-2150283067.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-with-greyhound-dog-home-couch_23-2150283067.jpg?_wi=1",
           imageAlt: "luxury pet spa grooming happy dog",
         },
         {
@@ -92,7 +92,7 @@ export default function LandingPage() {
           handle: "@jamest",
           testimonial: "My doodle has never looked this good. Absolutely stunning work.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg?_wi=1",
           imageAlt: "luxury pet spa grooming happy dog",
         },
         {
@@ -100,7 +100,7 @@ export default function LandingPage() {
           handle: "@emily_r",
           testimonial: "Kind, clean, and professional. We are customers for life.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg?_wi=1",
           imageAlt: "luxury pet spa grooming happy dog",
         },
       ]}
@@ -110,7 +110,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatars={[
         {
@@ -183,21 +183,21 @@ export default function LandingPage() {
           title: "Full Spa Groom",
           subtitle: "Bath, Cut, Nails & More",
           description: "Comprehensive grooming service including bath, haircut, nails, and teeth cleaning.",
-          imageSrc: "http://img.b2bpic.net/free-photo/man-with-greyhound-dog-home-couch_23-2150283067.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/man-with-greyhound-dog-home-couch_23-2150283067.jpg?_wi=2",
         },
         {
           tag: "Add-on",
           title: "Blueberry Facial",
           subtitle: "Refresh & Clean",
           description: "Deep cleaning blueberry facial for a fresh, clean scent and happy pup.",
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-asmr-microphone-with-objects-sound_23-2149319262.jpg?_wi=2",
         },
         {
           tag: "Specialty",
           title: "Senior Spa Care",
           subtitle: "Gentle Handling",
           description: "Specially tailored grooming for senior dogs needing extra patience and care.",
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/close-up-female-vet-hand-examining-dog-flea-with-comb-clinic_23-2147928587.jpg?_wi=2",
         },
       ]}
       title="Signature Spa Services"
