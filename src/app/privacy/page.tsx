@@ -38,16 +38,16 @@ export default function PrivacyPage() {
             subtitle="Last updated: May 2024"
             sections={[
               {
-                heading: "Introduction",                content: { type: "paragraph", text: "At Puptown Parlor, we respect your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and safeguard the information you provide when visiting our website or using our grooming services." }
+                heading: "Introduction",                content: { text: "At Puptown Parlor, we respect your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and safeguard the information you provide when visiting our website or using our grooming services." }
               },
               {
-                heading: "Information We Collect",                content: { type: "list", items: ["Contact information (name, email, phone number)", "Pet details (name, breed, health/behavioral notes)", "Appointment scheduling data", "Website usage analytics"] }
+                heading: "Information We Collect",                content: { items: ["Contact information (name, email, phone number)", "Pet details (name, breed, health/behavioral notes)", "Appointment scheduling data", "Website usage analytics"] }
               },
               {
-                heading: "How We Use Your Information",                content: { type: "numbered-list", items: ["To schedule and manage your grooming appointments", "To provide personalized care for your pets", "To communicate regarding updates, promotions, or appointment changes", "To improve our website experience"] }
+                heading: "How We Use Your Information",                content: { items: ["To schedule and manage your grooming appointments", "To provide personalized care for your pets", "To communicate regarding updates, promotions, or appointment changes", "To improve our website experience"] }
               },
               {
-                heading: "Data Security",                content: { type: "paragraph", text: "We implement industry-standard security measures to ensure your personal information remains confidential. Your data is stored securely and never sold to third parties." }
+                heading: "Data Security",                content: { text: "We implement industry-standard security measures to ensure your personal information remains confidential. Your data is stored securely and never sold to third parties." }
               }
             ]}
           />
