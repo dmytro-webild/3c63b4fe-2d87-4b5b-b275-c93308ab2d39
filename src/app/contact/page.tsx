@@ -43,6 +43,10 @@ export default function ContactPage() {
               { name: "phone", type: "tel", placeholder: "Phone Number" }
             ]}
             textarea={{ name: "message", placeholder: "Tell us about your pup!", rows: 5 }}
+            onSubmit={(data) => {
+              console.log("Form submission:", data);
+              window.location.href = "mailto:ajklein2@hotmail.com?subject=New Pet Spa Inquiry&body=Name: " + data.name + "%0AEmail: " + data.email + "%0APhone: " + data.phone + "%0AMessage: " + data.message;
+            }}
             mediaPosition="right"
             useInvertedBackground={false}
           />
