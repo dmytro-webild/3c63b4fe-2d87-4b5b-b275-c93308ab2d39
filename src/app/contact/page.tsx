@@ -44,14 +44,17 @@ export default function ContactPage() {
             ]}
             textarea={{ name: "message", placeholder: "Tell us about your pup!", rows: 5 }}
             mediaPosition="right"
+            useInvertedBackground={false}
           />
         </div>
 
         <div id="faq" data-section="faq">
           <FaqSplitMedia
             title="Frequently Asked Questions"
+            description="Everything you need to know about our services."
             faqsAnimation="slide-up"
             textboxLayout="default"
+            useInvertedBackground={false}
             faqs={[
               { id: "1", title: "What are your business hours?", content: "We are open Monday through Saturday from 8:00 AM to 6:00 PM." },
               { id: "2", title: "Do you accept walk-ins?", content: "We operate by appointment only to ensure every pup gets individual attention." },
