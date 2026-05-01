@@ -3,8 +3,8 @@
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
-import LegalSection from '@/components/legal/LegalSection';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import LegalSection from '@/components/legal/LegalSection';
 
 export default function PrivacyPolicyPage() {
   return (
@@ -31,26 +31,17 @@ export default function PrivacyPolicyPage() {
             brandName="Puptown Parlor"
           />
         </div>
-
         <div className="pt-32 pb-20">
           <LegalSection
             layout="page"
             title="Privacy Policy"
-            subtitle="Last updated: May 20, 2024"
             sections={[
-              {
-                heading: "1. Information We Collect",                content: { type: "paragraph", text: "At Puptown Parlor, we collect personal information you provide when booking appointments, such as your name, contact details, and pet information." }
-              },
-              {
-                heading: "2. How We Use Your Information",                content: { type: "list", items: ["To process your grooming appointments.", "To communicate regarding your service updates.", "To improve our service quality."] }
-              },
-              {
-                heading: "3. Data Security",                content: { type: "paragraph", text: "We implement robust security measures to protect your personal information from unauthorized access or disclosure." }
-              }
+              { heading: "Introduction", content: { text: "At Puptown Parlor, we respect your privacy and are committed to protecting your personal data." } },
+              { heading: "Information We Collect", content: { items: ["Contact information", "Pet details", "Appointment scheduling data"] } },
+              { heading: "How We Use Your Information", content: { items: ["To manage appointments", "To provide personalized care"] } }
             ]}
           />
         </div>
-
         <FooterBase
           logoText="Puptown Parlor"
           columns={[
