@@ -43,7 +43,7 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroSplitTestimonial
       background={{ variant: "plain" }}
-      title="Pamper Your Best Friend at Puptown Parlor!"
+      title="Pamper Your Best Friend at Puptown Parlor"
       description="Princeton’s Premier Gentle Grooming Spa. Where Tails Wag & Paws Glow – Experience stress-free, luxury pampering tailored to your pup's unique needs."
       testimonials={[
         { name: "Sarah J.", handle: "@sarah_j", testimonial: "The best grooming experience ever. My anxious pup was so calm!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=1" },
