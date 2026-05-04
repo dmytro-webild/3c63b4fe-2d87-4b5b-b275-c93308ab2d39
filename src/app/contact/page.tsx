@@ -36,7 +36,7 @@ export default function ContactPage() {
         <div id="contact-form" data-section="contact">
           <ContactSplitForm
             title="Get in Touch"
-            description="Schedule your pet's next spa day. We're open Tuesday–Saturday, 8AM–5PM."
+            description="Schedule your pet's next spa day. We're open Tuesday–Saturday, 8AM–5PM. Call us at (972) 736-3999."
             inputs={[
               { name: "name", type: "text", placeholder: "Full Name", required: true },
               { name: "email", type: "email", placeholder: "Email Address", required: true },
@@ -62,7 +62,7 @@ export default function ContactPage() {
             faqs={[
               { id: "1", title: "What are your business hours?", content: "We are open Tuesday through Saturday from 8:00 AM to 5:00 PM." },
               { id: "2", title: "Do you accept walk-ins?", content: "We operate by appointment only to ensure every pup gets individual attention." },
-              { id: "3", title: "Where are you located?", content: "691 E Princeton Dr, Princeton, TX 75407." }
+              { id: "3", title: "Where are you located?", content: "691 East Princeton Drive, Suite 107, Princeton, TX 75407." }
             ]}
           />
         </div>

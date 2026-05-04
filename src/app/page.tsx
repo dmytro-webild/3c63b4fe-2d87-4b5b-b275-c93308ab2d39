@@ -45,7 +45,7 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       background={{ variant: "plain" }}
       title="Pamper Your Best Friend at Puptown Parlor"
-      description="Princeton’s Premier Gentle Grooming Spa. Where Tails Wag & Paws Glow – Experience stress-free, luxury pampering tailored to your pup's unique needs."
+      description="Princeton’s Premier Gentle Grooming Spa. Where Tails Wag & Paws Glow – Experience stress-free, luxury pampering tailored to your pup's unique needs. Call (972) 736-3999."
       testimonials={[
         { name: "Sarah J.", handle: "@sarah_j", testimonial: "The best grooming experience ever. My anxious pup was so calm!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/stylish-blonde-female-dressed-old-fashioned-jacket-holds-red-badger-dog_613910-15889.jpg?_wi=1" },
         { name: "Mike D.", handle: "@mikedogowner", testimonial: "Puptown Parlor is amazing. Professional, kind, and excellent results.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/drag-queen-putting-makeup-full-shot_23-2149434544.jpg" },
@@ -141,7 +141,7 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={false}
       background={{ variant: "cell-wave" }}
-      text="Ready for your pup’s spa day? Reach out to schedule an appointment today. We are located at 691 E Princeton Dr, Princeton, TX 75407."
+      text="Ready for your pup’s spa day? Reach out to schedule an appointment today at (972) 736-3999. We are located at 691 East Princeton Drive, Suite 107, Princeton, TX 75407."
       buttons={[{ text: "Visit Contact Page", href: "/contact" }]}
     />
   </div>
